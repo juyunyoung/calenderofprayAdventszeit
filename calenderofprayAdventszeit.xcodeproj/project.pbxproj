@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195FE4CE21C53D3300959023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4CD21C53D3300959023 /* AppDelegate.swift */; };
+		195FE4D021C53D3300959023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4CF21C53D3300959023 /* ViewController.swift */; };
+		195FE4D321C53D3300959023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195FE4D121C53D3300959023 /* Main.storyboard */; };
+		195FE4D621C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4D421C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld */; };
+		195FE4D821C53D3400959023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195FE4D721C53D3400959023 /* Assets.xcassets */; };
+		195FE4DB21C53D3400959023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195FE4D921C53D3400959023 /* LaunchScreen.storyboard */; };
+		195FE4E621C53D3400959023 /* calenderofprayAdventszeitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4E521C53D3400959023 /* calenderofprayAdventszeitTests.swift */; };
+		195FE4F121C53D3400959023 /* calenderofprayAdventszeitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4F021C53D3400959023 /* calenderofprayAdventszeitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195FE4E221C53D3400959023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195FE4C221C53D3300959023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195FE4C921C53D3300959023;
+			remoteInfo = calenderofprayAdventszeit;
+		};
+		195FE4ED21C53D3400959023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195FE4C221C53D3300959023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195FE4C921C53D3300959023;
+			remoteInfo = calenderofprayAdventszeit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		195FE4CA21C53D3300959023 /* calenderofprayAdventszeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calenderofprayAdventszeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FE4CD21C53D3300959023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195FE4CF21C53D3300959023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		195FE4D221C53D3300959023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195FE4D521C53D3300959023 /* calenderofprayAdventszeit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calenderofprayAdventszeit.xcdatamodel; sourceTree = "<group>"; };
+		195FE4D721C53D3400959023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195FE4DA21C53D3400959023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195FE4DC21C53D3400959023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195FE4E121C53D3400959023 /* calenderofprayAdventszeitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderofprayAdventszeitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FE4E521C53D3400959023 /* calenderofprayAdventszeitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderofprayAdventszeitTests.swift; sourceTree = "<group>"; };
+		195FE4E721C53D3400959023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195FE4EC21C53D3400959023 /* calenderofprayAdventszeitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderofprayAdventszeitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195FE4F021C53D3400959023 /* calenderofprayAdventszeitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderofprayAdventszeitUITests.swift; sourceTree = "<group>"; };
+		195FE4F221C53D3400959023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195FE4C721C53D3300959023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4DE21C53D3400959023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4E921C53D3400959023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195FE4C121C53D3300959023 = {
+			isa = PBXGroup;
+			children = (
+				195FE4CC21C53D3300959023 /* calenderofprayAdventszeit */,
+				195FE4E421C53D3400959023 /* calenderofprayAdventszeitTests */,
+				195FE4EF21C53D3400959023 /* calenderofprayAdventszeitUITests */,
+				195FE4CB21C53D3300959023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		195FE4CB21C53D3300959023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195FE4CA21C53D3300959023 /* calenderofprayAdventszeit.app */,
+				195FE4E121C53D3400959023 /* calenderofprayAdventszeitTests.xctest */,
+				195FE4EC21C53D3400959023 /* calenderofprayAdventszeitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195FE4CC21C53D3300959023 /* calenderofprayAdventszeit */ = {
+			isa = PBXGroup;
+			children = (
+				195FE4CD21C53D3300959023 /* AppDelegate.swift */,
+				195FE4CF21C53D3300959023 /* ViewController.swift */,
+				195FE4D121C53D3300959023 /* Main.storyboard */,
+				195FE4D721C53D3400959023 /* Assets.xcassets */,
+				195FE4D921C53D3400959023 /* LaunchScreen.storyboard */,
+				195FE4DC21C53D3400959023 /* Info.plist */,
+				195FE4D421C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld */,
+			);
+			path = calenderofprayAdventszeit;
+			sourceTree = "<group>";
+		};
+		195FE4E421C53D3400959023 /* calenderofprayAdventszeitTests */ = {
+			isa = PBXGroup;
+			children = (
+				195FE4E521C53D3400959023 /* calenderofprayAdventszeitTests.swift */,
+				195FE4E721C53D3400959023 /* Info.plist */,
+			);
+			path = calenderofprayAdventszeitTests;
+			sourceTree = "<group>";
+		};
+		195FE4EF21C53D3400959023 /* calenderofprayAdventszeitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195FE4F021C53D3400959023 /* calenderofprayAdventszeitUITests.swift */,
+				195FE4F221C53D3400959023 /* Info.plist */,
+			);
+			path = calenderofprayAdventszeitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195FE4C921C53D3300959023 /* calenderofprayAdventszeit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FE4F521C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeit" */;
+			buildPhases = (
+				195FE4C621C53D3300959023 /* Sources */,
+				195FE4C721C53D3300959023 /* Frameworks */,
+				195FE4C821C53D3300959023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calenderofprayAdventszeit;
+			productName = calenderofprayAdventszeit;
+			productReference = 195FE4CA21C53D3300959023 /* calenderofprayAdventszeit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195FE4E021C53D3400959023 /* calenderofprayAdventszeitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FE4F821C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeitTests" */;
+			buildPhases = (
+				195FE4DD21C53D3400959023 /* Sources */,
+				195FE4DE21C53D3400959023 /* Frameworks */,
+				195FE4DF21C53D3400959023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195FE4E321C53D3400959023 /* PBXTargetDependency */,
+			);
+			name = calenderofprayAdventszeitTests;
+			productName = calenderofprayAdventszeitTests;
+			productReference = 195FE4E121C53D3400959023 /* calenderofprayAdventszeitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		195FE4EB21C53D3400959023 /* calenderofprayAdventszeitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195FE4FB21C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeitUITests" */;
+			buildPhases = (
+				195FE4E821C53D3400959023 /* Sources */,
+				195FE4E921C53D3400959023 /* Frameworks */,
+				195FE4EA21C53D3400959023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195FE4EE21C53D3400959023 /* PBXTargetDependency */,
+			);
+			name = calenderofprayAdventszeitUITests;
+			productName = calenderofprayAdventszeitUITests;
+			productReference = 195FE4EC21C53D3400959023 /* calenderofprayAdventszeitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195FE4C221C53D3300959023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "주 윤령";
+				TargetAttributes = {
+					195FE4C921C53D3300959023 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					195FE4E021C53D3400959023 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 195FE4C921C53D3300959023;
+					};
+					195FE4EB21C53D3400959023 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 195FE4C921C53D3300959023;
+					};
+				};
+			};
+			buildConfigurationList = 195FE4C521C53D3300959023 /* Build configuration list for PBXProject "calenderofprayAdventszeit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195FE4C121C53D3300959023;
+			productRefGroup = 195FE4CB21C53D3300959023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195FE4C921C53D3300959023 /* calenderofprayAdventszeit */,
+				195FE4E021C53D3400959023 /* calenderofprayAdventszeitTests */,
+				195FE4EB21C53D3400959023 /* calenderofprayAdventszeitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195FE4C821C53D3300959023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FE4DB21C53D3400959023 /* LaunchScreen.storyboard in Resources */,
+				195FE4D821C53D3400959023 /* Assets.xcassets in Resources */,
+				195FE4D321C53D3300959023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4DF21C53D3400959023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4EA21C53D3400959023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195FE4C621C53D3300959023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FE4D021C53D3300959023 /* ViewController.swift in Sources */,
+				195FE4CE21C53D3300959023 /* AppDelegate.swift in Sources */,
+				195FE4D621C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4DD21C53D3400959023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FE4E621C53D3400959023 /* calenderofprayAdventszeitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195FE4E821C53D3400959023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195FE4F121C53D3400959023 /* calenderofprayAdventszeitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195FE4E321C53D3400959023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195FE4C921C53D3300959023 /* calenderofprayAdventszeit */;
+			targetProxy = 195FE4E221C53D3400959023 /* PBXContainerItemProxy */;
+		};
+		195FE4EE21C53D3400959023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195FE4C921C53D3300959023 /* calenderofprayAdventszeit */;
+			targetProxy = 195FE4ED21C53D3400959023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		195FE4D121C53D3300959023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195FE4D221C53D3300959023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195FE4D921C53D3400959023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195FE4DA21C53D3400959023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195FE4F321C53D3400959023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195FE4F421C53D3400959023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195FE4F621C53D3400959023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		195FE4F721C53D3400959023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		195FE4F921C53D3400959023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenderofprayAdventszeit.app/calenderofprayAdventszeit";
+			};
+			name = Debug;
+		};
+		195FE4FA21C53D3400959023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calenderofprayAdventszeit.app/calenderofprayAdventszeit";
+			};
+			name = Release;
+		};
+		195FE4FC21C53D3400959023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calenderofprayAdventszeit;
+			};
+			name = Debug;
+		};
+		195FE4FD21C53D3400959023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LTTMMFTVGG;
+				INFOPLIST_FILE = calenderofprayAdventszeitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holidayfamfily.calenderofprayAdventszeitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calenderofprayAdventszeit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195FE4C521C53D3300959023 /* Build configuration list for PBXProject "calenderofprayAdventszeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FE4F321C53D3400959023 /* Debug */,
+				195FE4F421C53D3400959023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FE4F521C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FE4F621C53D3400959023 /* Debug */,
+				195FE4F721C53D3400959023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FE4F821C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FE4F921C53D3400959023 /* Debug */,
+				195FE4FA21C53D3400959023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195FE4FB21C53D3400959023 /* Build configuration list for PBXNativeTarget "calenderofprayAdventszeitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195FE4FC21C53D3400959023 /* Debug */,
+				195FE4FD21C53D3400959023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		195FE4D421C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				195FE4D521C53D3300959023 /* calenderofprayAdventszeit.xcdatamodel */,
+			);
+			currentVersion = 195FE4D521C53D3300959023 /* calenderofprayAdventszeit.xcdatamodel */;
+			path = calenderofprayAdventszeit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 195FE4C221C53D3300959023 /* Project object */;
+}
