@@ -16,5 +16,7 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func oneday(_ sender: Any) {
+    }
 }
 

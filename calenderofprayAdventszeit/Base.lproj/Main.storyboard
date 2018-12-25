@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rj8-sx-QSf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,186 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calenderofprayAdventszeit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" highlightedImage="background.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hv-4y-d4c">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jE2-dl-C66">
+                                <rect key="frame" x="164.5" y="156" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="KZH-1u-4Qx" kind="show" id="VdG-lg-CwU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8hv-4y-d4c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6ux-xB-JUG"/>
+                            <constraint firstItem="8hv-4y-d4c" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LPD-mp-sIw"/>
+                            <constraint firstItem="jE2-dl-C66" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bxV-gy-DJ3"/>
+                            <constraint firstItem="jE2-dl-C66" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="oxB-2A-CCw"/>
+                            <constraint firstItem="8hv-4y-d4c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="shh-aV-bAh"/>
+                            <constraint firstItem="8hv-4y-d4c" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vuC-iv-7cR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="NGg-HI-IDN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="581.60000000000002" y="691.304347826087"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8oQ-2A-T9O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rj8-sx-QSf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4rl-RX-DI9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QDv-jC-hUm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDC-wl-5hy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119" y="693"/>
+        </scene>
+        <!--Oneday-->
+        <scene sceneID="v8W-hS-68O">
+            <objects>
+                <viewController id="KZH-1u-4Qx" customClass="Oneday" customModule="calenderofprayAdventszeit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fZQ-8Y-1Y7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50w-Q5-EhD">
+                                <rect key="frame" x="230" y="583" width="83" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="친히 징조를"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="CKe-ha-Qcx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qb-N4-J6u">
+                                <rect key="frame" x="94" y="551" width="78" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="주실것이라"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="IuA-mQ-8ak"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vf-gY-FBq">
+                                <rect key="frame" x="230" y="364" width="63" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="너희에게"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="JUQ-Qf-UZ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJ8-Bp-EF7">
+                                <rect key="frame" x="76" y="326" width="83" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="그의 이름을"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="2oL-nn-9Rl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kR-XD-611">
+                                <rect key="frame" x="199" y="302" width="94" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="임마누엘이라"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="VLm-7a-izv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6f-Fq-vAz">
+                                <rect key="frame" x="99" y="457" width="36" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="보라 "/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="JkT-hX-cLM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlh-lC-0dc">
+                                <rect key="frame" x="26" y="499" width="134" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="아들을 낳을 것이요"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="ISm-da-0M0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skC-qp-N71">
+                                <rect key="frame" x="26" y="415" width="114" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="처녀가 잉태하여"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="Stw-s8-X0r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9T-xf-Ked">
+                                <rect key="frame" x="212" y="438" width="114" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="그러므로 주께서"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="op1-H8-Lib"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="10" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyw-e1-cu6">
+                                <rect key="frame" x="212" y="499" width="47" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="하리라"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="KZH-1u-4Qx" eventType="touchUpInside" id="Lbn-fP-n85"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-kK-bTo">
+                                <rect key="frame" x="16" y="85" width="343" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pq2-DH-xAZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="bibleText" destination="CkO-kK-bTo" id="jaB-nW-Gm6"/>
+                        <outlet property="bibleText1" destination="Y9T-xf-Ked" id="RYI-AV-VZ1"/>
+                        <outlet property="bibleText10" destination="lyw-e1-cu6" id="zAJ-lj-XPB"/>
+                        <outlet property="bibleText3" destination="7Vf-gY-FBq" id="K5y-rh-Nw6"/>
+                        <outlet property="bibleText4" destination="4Qb-N4-J6u" id="cFx-fY-VwN"/>
+                        <outlet property="bibleText5" destination="Z6f-Fq-vAz" id="fxF-6L-lIL"/>
+                        <outlet property="bibleText6" destination="skC-qp-N71" id="uD8-mg-1yC"/>
+                        <outlet property="bibleText7" destination="mlh-lC-0dc" id="8G0-fa-Sua"/>
+                        <outlet property="bibleText9" destination="4kR-XD-611" id="bnD-4D-JPW"/>
+                        <outlet property="bibletext2" destination="50w-Q5-EhD" id="JkF-4D-hjf"/>
+                        <outlet property="bibletext8" destination="FJ8-Bp-EF7" id="QUC-7U-G68"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDW-Jg-iSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1429.5999999999999" y="690.40479760119945"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background.png" width="534" height="754"/>
+    </resources>
 </document>
