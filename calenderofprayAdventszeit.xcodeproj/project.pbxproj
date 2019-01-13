@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195577C621E6248D00703A3C /* Secoundday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195577C521E6248D00703A3C /* Secoundday.swift */; };
 		195FE4CE21C53D3300959023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4CD21C53D3300959023 /* AppDelegate.swift */; };
 		195FE4D021C53D3300959023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4CF21C53D3300959023 /* ViewController.swift */; };
 		195FE4D321C53D3300959023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195FE4D121C53D3300959023 /* Main.storyboard */; };
@@ -16,7 +17,10 @@
 		195FE4E621C53D3400959023 /* calenderofprayAdventszeitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4E521C53D3400959023 /* calenderofprayAdventszeitTests.swift */; };
 		195FE4F121C53D3400959023 /* calenderofprayAdventszeitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE4F021C53D3400959023 /* calenderofprayAdventszeitUITests.swift */; };
 		195FE50021C53F7300959023 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 195FE4FF21C53F7200959023 /* background.png */; };
-		195FE50221C543BE00959023 /* Oneday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE50121C543BE00959023 /* Oneday.swift */; };
+		195FE50221C543BE00959023 /* Firstday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE50121C543BE00959023 /* Firstday.swift */; };
+		198DA41F21EA1F640081BAA9 /* text1.png in Resources */ = {isa = PBXBuildFile; fileRef = 198DA41E21EA1F640081BAA9 /* text1.png */; };
+		198DA42121EA1F6E0081BAA9 /* text2.png in Resources */ = {isa = PBXBuildFile; fileRef = 198DA42021EA1F6E0081BAA9 /* text2.png */; };
+		198DA42321EA25A80081BAA9 /* TextInageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198DA42221EA25A80081BAA9 /* TextInageview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195577C521E6248D00703A3C /* Secoundday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secoundday.swift; sourceTree = "<group>"; };
 		195FE4CA21C53D3300959023 /* calenderofprayAdventszeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calenderofprayAdventszeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195FE4CD21C53D3300959023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195FE4CF21C53D3300959023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +57,10 @@
 		195FE4F021C53D3400959023 /* calenderofprayAdventszeitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderofprayAdventszeitUITests.swift; sourceTree = "<group>"; };
 		195FE4F221C53D3400959023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		195FE4FF21C53F7200959023 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		195FE50121C543BE00959023 /* Oneday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oneday.swift; sourceTree = "<group>"; };
+		195FE50121C543BE00959023 /* Firstday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firstday.swift; sourceTree = "<group>"; };
+		198DA41E21EA1F640081BAA9 /* text1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text1.png; sourceTree = "<group>"; };
+		198DA42021EA1F6E0081BAA9 /* text2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text2.png; sourceTree = "<group>"; };
+		198DA42221EA25A80081BAA9 /* TextInageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInageview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,7 @@
 		195FE4CC21C53D3300959023 /* calenderofprayAdventszeit */ = {
 			isa = PBXGroup;
 			children = (
-				195FE4FE21C53F3300959023 /* imange */,
+				195FE4FE21C53F3300959023 /* image */,
 				195FE4CD21C53D3300959023 /* AppDelegate.swift */,
 				195FE4CF21C53D3300959023 /* ViewController.swift */,
 				195FE4D121C53D3300959023 /* Main.storyboard */,
@@ -111,7 +119,9 @@
 				195FE4D921C53D3400959023 /* LaunchScreen.storyboard */,
 				195FE4DC21C53D3400959023 /* Info.plist */,
 				195FE4D421C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld */,
-				195FE50121C543BE00959023 /* Oneday.swift */,
+				195FE50121C543BE00959023 /* Firstday.swift */,
+				195577C521E6248D00703A3C /* Secoundday.swift */,
+				198DA42221EA25A80081BAA9 /* TextInageview.swift */,
 			);
 			path = calenderofprayAdventszeit;
 			sourceTree = "<group>";
@@ -134,12 +144,14 @@
 			path = calenderofprayAdventszeitUITests;
 			sourceTree = "<group>";
 		};
-		195FE4FE21C53F3300959023 /* imange */ = {
+		195FE4FE21C53F3300959023 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				198DA41E21EA1F640081BAA9 /* text1.png */,
+				198DA42021EA1F6E0081BAA9 /* text2.png */,
 				195FE4FF21C53F7200959023 /* background.png */,
 			);
-			name = imange;
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +261,9 @@
 				195FE50021C53F7300959023 /* background.png in Resources */,
 				195FE4DB21C53D3400959023 /* LaunchScreen.storyboard in Resources */,
 				195FE4D821C53D3400959023 /* Assets.xcassets in Resources */,
+				198DA41F21EA1F640081BAA9 /* text1.png in Resources */,
 				195FE4D321C53D3300959023 /* Main.storyboard in Resources */,
+				198DA42121EA1F6E0081BAA9 /* text2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				195FE4D021C53D3300959023 /* ViewController.swift in Sources */,
+				195577C621E6248D00703A3C /* Secoundday.swift in Sources */,
 				195FE4CE21C53D3300959023 /* AppDelegate.swift in Sources */,
 				195FE4D621C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld in Sources */,
-				195FE50221C543BE00959023 /* Oneday.swift in Sources */,
+				198DA42321EA25A80081BAA9 /* TextInageview.swift in Sources */,
+				195FE50221C543BE00959023 /* Firstday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

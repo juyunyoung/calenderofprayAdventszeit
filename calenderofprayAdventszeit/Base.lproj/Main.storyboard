@@ -28,6 +28,14 @@
                                     <segue destination="KZH-1u-4Qx" kind="show" id="VdG-lg-CwU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMX-eE-e9L">
+                                <rect key="frame" x="209" y="237" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="srY-dk-eJA" kind="show" id="1sn-aX-jNX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -64,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="-119" y="693"/>
         </scene>
-        <!--Oneday-->
+        <!--Firstday-->
         <scene sceneID="v8W-hS-68O">
             <objects>
-                <viewController id="KZH-1u-4Qx" customClass="Oneday" customModule="calenderofprayAdventszeit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KZH-1u-4Qx" customClass="Firstday" customModule="calenderofprayAdventszeit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fZQ-8Y-1Y7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -190,6 +198,31 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rDW-Jg-iSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1429.5999999999999" y="690.40479760119945"/>
+        </scene>
+        <!--Secoundday-->
+        <scene sceneID="7tw-bo-lJ2">
+            <objects>
+                <viewController id="srY-dk-eJA" customClass="Secoundday" customModule="calenderofprayAdventszeit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uLd-Tz-fME">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIx-Tn-a87">
+                                <rect key="frame" x="136" y="89" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="눌러보세요"/>
+                                <connections>
+                                    <action selector="addText:" destination="srY-dk-eJA" eventType="touchUpInside" id="YGt-bK-64L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dUa-SG-nch"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dtC-ga-Cdo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="1470"/>
         </scene>
     </scenes>
     <resources>

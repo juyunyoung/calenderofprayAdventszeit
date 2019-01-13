@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Oneday: UIViewController {
+class Firstday: UIViewController {
     
     
     @IBOutlet var bibleText: UITextView!
