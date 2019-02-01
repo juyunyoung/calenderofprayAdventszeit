@@ -20,8 +20,7 @@
 		195FE50221C543BE00959023 /* Firstday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FE50121C543BE00959023 /* Firstday.swift */; };
 		196344F9220327D200169C1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196344F8220327D200169C1E /* AVFoundation.framework */; };
 		196344FD22032F7F00169C1E /* 44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 196344FC22032F7F00169C1E /* 44.mp3 */; };
-		198DA41F21EA1F640081BAA9 /* text1.png in Resources */ = {isa = PBXBuildFile; fileRef = 198DA41E21EA1F640081BAA9 /* text1.png */; };
-		198DA42121EA1F6E0081BAA9 /* text2.png in Resources */ = {isa = PBXBuildFile; fileRef = 198DA42021EA1F6E0081BAA9 /* text2.png */; };
+		19670FBC2203A2C400326EE0 /* Thirdday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19670FBB2203A2C400326EE0 /* Thirdday.swift */; };
 		198DA42321EA25A80081BAA9 /* TextInageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198DA42221EA25A80081BAA9 /* TextInageview.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +61,7 @@
 		195FE50121C543BE00959023 /* Firstday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firstday.swift; sourceTree = "<group>"; };
 		196344F8220327D200169C1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		196344FC22032F7F00169C1E /* 44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 44.mp3; path = ../../../Downloads/44.mp3; sourceTree = "<group>"; };
-		198DA41E21EA1F640081BAA9 /* text1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text1.png; sourceTree = "<group>"; };
-		198DA42021EA1F6E0081BAA9 /* text2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text2.png; sourceTree = "<group>"; };
+		19670FBB2203A2C400326EE0 /* Thirdday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirdday.swift; sourceTree = "<group>"; };
 		198DA42221EA25A80081BAA9 /* TextInageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInageview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +127,7 @@
 				195FE50121C543BE00959023 /* Firstday.swift */,
 				195577C521E6248D00703A3C /* Secoundday.swift */,
 				198DA42221EA25A80081BAA9 /* TextInageview.swift */,
+				19670FBB2203A2C400326EE0 /* Thirdday.swift */,
 			);
 			path = calenderofprayAdventszeit;
 			sourceTree = "<group>";
@@ -154,8 +153,6 @@
 		195FE4FE21C53F3300959023 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				198DA41E21EA1F640081BAA9 /* text1.png */,
-				198DA42021EA1F6E0081BAA9 /* text2.png */,
 				195FE4FF21C53F7200959023 /* background.png */,
 			);
 			name = image;
@@ -276,10 +273,8 @@
 				195FE50021C53F7300959023 /* background.png in Resources */,
 				195FE4DB21C53D3400959023 /* LaunchScreen.storyboard in Resources */,
 				195FE4D821C53D3400959023 /* Assets.xcassets in Resources */,
-				198DA41F21EA1F640081BAA9 /* text1.png in Resources */,
 				196344FD22032F7F00169C1E /* 44.mp3 in Resources */,
 				195FE4D321C53D3300959023 /* Main.storyboard in Resources */,
-				198DA42121EA1F6E0081BAA9 /* text2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +304,7 @@
 				195FE4CE21C53D3300959023 /* AppDelegate.swift in Sources */,
 				195FE4D621C53D3300959023 /* calenderofprayAdventszeit.xcdatamodeld in Sources */,
 				198DA42321EA25A80081BAA9 /* TextInageview.swift in Sources */,
+				19670FBC2203A2C400326EE0 /* Thirdday.swift in Sources */,
 				195FE50221C543BE00959023 /* Firstday.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
